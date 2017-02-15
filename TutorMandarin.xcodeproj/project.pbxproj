@@ -27,6 +27,7 @@
 		F0041FAF1E544F9C00F23AF2 /* PackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FAE1E544F9C00F23AF2 /* PackageViewController.swift */; };
 		F0041FB11E54532600F23AF2 /* WhatisPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */; };
 		F0041FB41E54533A00F23AF2 /* PackageBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */; };
+		F0041FB61E54541A00F23AF2 /* PackageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		F0041FAE1E544F9C00F23AF2 /* PackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageViewController.swift; sourceTree = "<group>"; };
 		F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatisPackageViewController.swift; sourceTree = "<group>"; };
 		F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageBookingViewController.swift; sourceTree = "<group>"; };
+		F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				F0041FAE1E544F9C00F23AF2 /* PackageViewController.swift */,
 				F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */,
 				F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */,
+				F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */,
 			);
 			name = Package;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0041FB61E54541A00F23AF2 /* PackageDetailViewController.swift in Sources */,
 				9901179F1E516A62003B97D0 /* LoginViewController.swift in Sources */,
 				99B6B32C1E4826F9005AB2CB /* ViewController.swift in Sources */,
 				9901179B1E515E1C003B97D0 /* WalkthroughViewController.swift in Sources */,
