@@ -10,6 +10,14 @@ import UIKit
 
 class PackageViewController: UIViewController {
 
+    @IBOutlet weak var imgBackground: UIImageView!
+    @IBOutlet weak var lblNoPackage: UILabel!
+    
+    @IBOutlet weak var lblPurchasePackage: UILabel!
+    
+    @IBOutlet weak var btnPurchase: UIButton!
+    @IBOutlet weak var btnWhatIsPackage: UIButton!
+    @IBOutlet weak var btnBookingRules: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 

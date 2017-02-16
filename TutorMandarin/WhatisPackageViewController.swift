@@ -9,7 +9,10 @@
 import UIKit
 
 class WhatisPackageViewController: UIViewController {
+    @IBOutlet weak var scrollView: UIScrollView!
 
+    @IBOutlet weak var imgPackage: UIImageView!
+    @IBOutlet weak var imgPackageOffer: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -1,24 +1,30 @@
 //
-//  PackageDetailViewController.swift
+//  BuyNewPackageViewController.swift
 //  TutorMandarin
 //
-//  Created by Phyo Kyaw Swar on 15/2/17.
+//  Created by Phyo Kyaw Swar on 16/2/17.
 //  Copyright © 2017 ConfidentSolutions. All rights reserved.
 //
 
 import UIKit
 
-class PackageDetailViewController: UIViewController {
+class BuyNewPackageViewController: UIViewController {
 
-    @IBOutlet weak var viewDetail: UIView!
-    @IBOutlet weak var imgCover: UIImageView!
-    @IBOutlet weak var lblName: UILabel!
-    @IBOutlet weak var lblInfo: UILabel!
-    
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imgBackground1: UIImageView!
+    @IBOutlet weak var imgPackage: UIImageView!
+    @IBOutlet weak var lblPackageName: UILabel!
+    @IBOutlet weak var imgLessonsIcon: UIImageView!
+    @IBOutlet weak var imgSupplementsIcon: UIImageView!
+    @IBOutlet weak var lblLesson: UILabel!
+    @IBOutlet weak var lblSupplements: UILabel!
+    @IBOutlet weak var btnCredit: UIButton!
+    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var imgBackground2: UIImageView!
+    @IBOutlet weak var lblCourseStructure: UILabel!
+    @IBOutlet weak var lblCodeDescription: UILabel!
     @IBOutlet weak var imgSeparator: UIImageView!
-    @IBOutlet weak var lblTimes: UILabel!
-    @IBOutlet weak var lblExpiration_Date: UILabel!
-    @IBOutlet weak var btnBuy_New_Pack: UIButton!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 

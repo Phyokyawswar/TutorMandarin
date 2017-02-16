@@ -10,6 +10,14 @@ import UIKit
 
 class PackageBookingViewController: UIViewController {
 
+    @IBOutlet weak var viewInfo: UIView!
+    @IBOutlet weak var btnClose: UIButton!
+    @IBOutlet weak var imgIcon: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblInfo: UILabel!
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var btnStartNow: UIButton!
+    @IBOutlet weak var btnLearnMore: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 

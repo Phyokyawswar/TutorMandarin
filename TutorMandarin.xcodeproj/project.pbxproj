@@ -28,6 +28,9 @@
 		F0041FB11E54532600F23AF2 /* WhatisPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */; };
 		F0041FB41E54533A00F23AF2 /* PackageBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */; };
 		F0041FB61E54541A00F23AF2 /* PackageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */; };
+		F0041FB81E5463E300F23AF2 /* PackageStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB71E5463E300F23AF2 /* PackageStoreViewController.swift */; };
+		F0041FBA1E55485D00F23AF2 /* BuyNewPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FB91E55485D00F23AF2 /* BuyNewPackageViewController.swift */; };
+		F0041FBC1E554BBB00F23AF2 /* PackBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0041FBB1E554BBB00F23AF2 /* PackBookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatisPackageViewController.swift; sourceTree = "<group>"; };
 		F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageBookingViewController.swift; sourceTree = "<group>"; };
 		F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageDetailViewController.swift; sourceTree = "<group>"; };
+		F0041FB71E5463E300F23AF2 /* PackageStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageStoreViewController.swift; sourceTree = "<group>"; };
+		F0041FB91E55485D00F23AF2 /* BuyNewPackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyNewPackageViewController.swift; sourceTree = "<group>"; };
+		F0041FBB1E554BBB00F23AF2 /* PackBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackBookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,9 @@
 				F0041FB01E54532600F23AF2 /* WhatisPackageViewController.swift */,
 				F0041FB31E54533A00F23AF2 /* PackageBookingViewController.swift */,
 				F0041FB51E54541A00F23AF2 /* PackageDetailViewController.swift */,
+				F0041FB71E5463E300F23AF2 /* PackageStoreViewController.swift */,
+				F0041FB91E55485D00F23AF2 /* BuyNewPackageViewController.swift */,
+				F0041FBB1E554BBB00F23AF2 /* PackBookingViewController.swift */,
 			);
 			name = Package;
 			sourceTree = "<group>";
@@ -344,6 +353,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0041FB81E5463E300F23AF2 /* PackageStoreViewController.swift in Sources */,
+				F0041FBC1E554BBB00F23AF2 /* PackBookingViewController.swift in Sources */,
 				F0041FB61E54541A00F23AF2 /* PackageDetailViewController.swift in Sources */,
 				9901179F1E516A62003B97D0 /* LoginViewController.swift in Sources */,
 				99B6B32C1E4826F9005AB2CB /* ViewController.swift in Sources */,
@@ -353,6 +364,7 @@
 				F0041FB41E54533A00F23AF2 /* PackageBookingViewController.swift in Sources */,
 				99B6B32A1E4826F9005AB2CB /* AppDelegate.swift in Sources */,
 				990117951E514D6F003B97D0 /* SignUpViewController.swift in Sources */,
+				F0041FBA1E55485D00F23AF2 /* BuyNewPackageViewController.swift in Sources */,
 				F0041FB11E54532600F23AF2 /* WhatisPackageViewController.swift in Sources */,
 				F0041FAF1E544F9C00F23AF2 /* PackageViewController.swift in Sources */,
 				99CC9F8C1E4E4F0A007C942C /* SWRevealViewController.m in Sources */,
